@@ -1,0 +1,108 @@
+/* Custom Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+/* Home Section */
+.home-section {
+    height: 100vh;
+    background-image: url('/static/pxfuel.jpg'); 
+    background-size: cover; /* Memastikan gambar mengisi seluruh area */
+    background-position: center; /* Memastikan gambar tetap terpusat */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.home-section p {
+    font-size: 18px;
+    color: #666;
+}
+
+.home-section button {
+    margin-top: 20px;
+}
+
+/* Profil Section */
+#about img {
+    max-width: 100%;
+    height: auto;
+}
+
+#about .container {
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Projects Section */
+.card img {
+    max-height: 250px;
+    object-fit: cover;
+}
+
+/* Contact Section */
+#contact form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #f8f9fa;
+    position: relative;
+}
+
+footer svg {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+footer p {
+    color: #555;  
+}  
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #000;
+}

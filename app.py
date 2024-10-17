@@ -10,10 +10,6 @@ load_dotenv(dotenv_path)
 
 @app.route('/', methods=['GET'])
 def home():
-    return render_template('index.html')
-
-@app.route('/about', methods=['GET'])
-def about():
     return render_template('about.html')
 
 @app.route('/info', methods=['GET'])
